@@ -1,23 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Jackson Furr</title>
-	</head>
-	<body>
-		<h>Welcome to my portfolio!</h>
-	</body>
-	<style>
-		body,
-		html {
-			width: 100dvw;
-			height: 100dvh;
-			background: red;
 
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-	</style>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Jackson Furr</title>
+</head>
+
+<body>
+	<h1>Jackson Furr's ePortfolio</h1>
+	<div class="spacer"></div>
+	<div class="box">
+		<h2>Overview</h2>
+		<p>My name is Jackson Furr, and I am a</p>
+	</div>
+	<div class="spacer"></div>
+	<div class="box">
+		<h3>Code Review</h3>
+		<video style="border: 1px solid black" width="640" controls>
+			<source src="assets/code_review.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+</body>
+<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		width: 100dvw;
+		min-height: 100dvh;
+		background: #B4D6CD;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		background: #FF8C9E;
+		padding: 1rem;
+		border: 1px solid black;
+		box-shadow: 1rem;
+		border-radius: 1rem;
+	}
+
+	.spacer {
+		height: 50px;
+	}
+</style>
+
 </html>
