@@ -80,15 +80,13 @@ svg {
   margin-top: 8rem;
   animation: bounce 3s ease-in-out 0s infinite;
 }
-
-.intro > h1 {
+.intro h1 {
   margin-top: 5rem;
   margin-bottom: 10px;
   font-weight: 1000;
   font-size: 5rem;
 }
-
-.intro > h2 {
+.intro h2 {
   margin-bottom: 30px;
 }
 
@@ -100,12 +98,10 @@ section {
   align-items: center;
   justify-content: center;
 }
-
-section > * {
+section * {
   z-index: 7;
 }
-
-.card {
+section .card {
   width: 60%;
   min-height: 50%;
   background: linear-gradient(to left top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1));
@@ -124,52 +120,5 @@ section > * {
     transform: translateY(-5px);
   }
 }
-/* #mainCont {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-
-	width: 85%;
-	background: white;
-
-	padding: 20px;
-}
-
-.box {
-	text-align: center;
-	max-width: 80dvw;
-	background: #FF8C9E;
-	padding: 0.5rem;
-	border: 1px solid black;
-	box-shadow: 1rem;
-	border-radius: 1rem;
-	margin-bottom: 40px;
-}
-
-.box>h2 {
-	margin-bottom: 10px;
-}
-
-.spacer {
-	height: 50px;
-}
-
-.split {
-	display: grid;
-	grid-template-columns: 1fr 20px 1fr;
-}
-
-.split>a {
-	text-align: center;
-}
-
-.narrative>* {
-	margin-bottom: 10px;
-}
-
-.narrative>p {
-	text-align: left;
-} */
 
 /*# sourceMappingURL=styles.css.map */
