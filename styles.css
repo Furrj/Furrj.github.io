@@ -87,6 +87,9 @@ section .card {
 section .card p {
   margin: 5px;
 }
+section .card .narrative {
+  text-align: left;
+}
 section .card h2 {
   position: sticky;
   top: 0px;
